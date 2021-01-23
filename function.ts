@@ -1,4 +1,4 @@
-function getAverage(...a: number[]): string {
+const getAverage = (...a: number[]): string => {
     let total = 0;
     let count = 0;
 
